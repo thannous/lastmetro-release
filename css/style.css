@@ -1,0 +1,203 @@
+
+@font-face {
+    font-family:"Sierra Madre";
+    src:url("Sierra_Madre.eot?") format("eot"),
+    url("Sierra_Madre.woff") format("woff"),
+    url("Sierra_Madre.ttf") format("truetype"),
+    url("Sierra_Madre.svg#SierraMadre")
+    format("svg");
+    font-weight: normal;
+    font-style: normal;}
+
+body {
+    margin: 0;
+}
+
+.scrollable {
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+}
+h2{
+    font-family: "Sierra Madre";
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.9em;
+}
+
+#counter{
+    width: 245px;
+    margin: 20px auto 20px auto;
+}
+
+ul#list{
+    list-style: none;
+}
+
+.ui-btn-inner {
+    width: 100% !important;
+}
+
+.cntSeparator {
+    font-size: 54px;
+    margin: 10px 7px;
+    color: #000;
+}
+
+.valign {
+    vertical-align: middle;
+    display:inline !important;
+    padding: 10px;
+}
+
+.arrow {
+	vertical-align: middle;
+	padding: 5px;
+}
+
+.iStart {
+	vertical-align: middle;
+}
+
+.iEnd {
+	vertical-align: middle;
+}
+
+#container {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    overflow: hidden;
+    background-color: #fff!important;
+}
+
+#stations {
+
+    margin-right: -15px; margin-left: -15px;
+    padding: 5px 0 5px 0;
+    width: 100%;
+}
+
+#listView{
+    width: 100%;
+    list-style: none;
+    padding: 0;
+}
+#listView li{
+    background-color: #EEEEEE;
+    border: 1px solid #DDDDDD;
+    height: 45px;
+    text-emphasis-style: double-circle;
+    width: 450px;
+    text-decoration: none;
+}
+#listView li a{
+ color: #222;
+    text-decoration: none;
+}
+#trip {
+    position: relative !important;
+    text-align: center;
+
+}
+
+#end {
+    position: absolute !important;
+    bottom: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+}
+
+#corner {
+    width: 52px;
+    height: 52px;
+    text-align: left;
+    position: absolute !important;
+    left: 0 !important;
+    bottom: 0 !important;
+}
+
+#parameters {
+    width: 22px;
+    height: 22px;
+    position: absolute !important;
+    left: 4px !important;
+    bottom: 4px !important;
+}
+
+#btnMapView {
+    text-align: center;
+    position: absolute !important;
+    left: 0 !important;
+    bottom: 0 !important;
+	margin: 0 !important;
+	width: 100% !important;
+}
+
+#alarm span.ui-btn-text{
+    margin-right: 40px;
+}
+
+.ui-btn-corner-all {
+	border-radius: 0 !important;
+}
+
+.ui-btn {
+	margin: 0 !important;
+
+}
+#bTrip{
+    margin-top: 7px; line-height: 52px; vertical-align: middle; padding-top: 12px;display: inline;
+}
+
+ #map_canvas{
+     height: 260px!important;
+ }
+
+
+.ui-simpledialog-header h4 { margin-top: 5px; margin-bottom: 5px; text-align: center; }
+.ui-simpledialog-container { border: 5px solid #111 !important; width:85%; max-width:500px;}
+.ui-simpledialog-screen { position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; }
+.ui-simpledialog-hidden { display: none; }
+.ui-simpledialog-input { width: 85% !important; display: block !important; margin-left: auto; margin-right: auto;}
+.ui-simpledialog-screen-modal { background-color: black; -moz-opacity: 0.8; opacity:.80; filter: alpha(opacity=80); }
+.ui-simpledialog-subtitle { text-align: center; }
+.ui-simpledialog-controls .buttons-separator {min-height: .6em;}
+.ui-simpledialog-controls .button-hidden { display:none; }
+
+.ui-dialog .ui-simpledialog-container { border: none !important; }
+.ui-dialog-simpledialog .ui-content { padding: 5px !important;}
+
+#formulaire .ui-radio{
+    width: 90px;
+    padding: 0;
+}
+#formulaire .ui-radio .ui-btn-inner
+{
+
+    padding-left: 0;
+    padding-right: 0;
+}
+#sorter .ui-li.ui-li-static.ui-btn-up-c {
+    height: 3.8%;
+    padding: 0;
+    font-size:8px;
+    padding-left:5px;
+    line-height:1.8em;
+}
+#sorter{
+    position:fixed;
+    top:60px;
+    right:0;
+    width:20px;
+    z-index:1;
+}
+#sorter ul{
+    height:100%;
+}
+#sortedList{
+    padding-right:35px;
+}

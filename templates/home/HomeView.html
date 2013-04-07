@@ -1,0 +1,57 @@
+
+<div data-role="content">
+	<h2>Dernier metro dans</h2>
+	<div id="counter"></div>
+	<div id="alarm">
+		<button id="start_alarm">Activer l'alarme</button>
+	</div>
+	<div id="stations">
+		<ul id="listView" data-divider-theme="" data-inset="true">
+			<li data-theme="c" >
+				<img class="valign" src="img/flag_green.png" width="20" height="22" alt="" />
+				<a class="valign"  href="#" data-transition="slide" id="nstart">
+					Départ
+				</a>
+			</li>
+			<li data-theme="c">
+				<img class="valign" src="img/flag_red.png" width="20" height="22" alt="" />
+				<a class="valign"  href="#" data-transition="slide"  id="nend">
+					Arrivée
+				</a>
+			</li>
+		</ul>
+	</div>
+	<div id="trip">
+        <div id="station" style="width: 60px; display: inline; line-height: 60px; vertical-align: top;">
+
+			<img class="arrow" style="valign" src="img/runningman.png" alt="" width="23" height="27"  />&nbsp;&nbsp;<span id="gogo">2</span> min
+			<img class="arrow" src="img/arrow.png" alt=">" style="width: 9px; height: 15px"/>
+			<img class="iStart" src="" alt="" style="width: 35px;"/>
+			<img class="arrow" src="img/arrow.png" alt=">" style="width: 9px; height: 15px"/>
+            <img id="Ends" class="iEnd" src="" alt="" style="width: 35px;" />
+
+        </div>
+	</div>
+</div>
+<div id="end">
+    <div id="btnMapView" >
+        <button><img style="valign" src="img/map.png" alt="" width="27" height="19"  />&nbsp;&nbsp;Voir la carte</button>
+    </div>
+	<div id="corner">
+		<img style="valign" src="img/corner.png" alt="" width="52" height="52"  />
+	</div>
+	<div id="parameters">
+		<img style="valign" src="img/parameters.png" alt="" width="22" height="22"  />
+	</div>
+</div>
+
+
+<div data-role="page" id="dialogPage">
+    <div data-role="header">
+        <h2>Last Metro</h2>
+    </div>
+    <div data-role="content">
+        <p>Hey, maintenant vous ne raterez plus aucun metro, pour ça indiquez l'addresse d'arriver et nous vous indiquerons l'heure du dernier metro et le parcours à prendre</p>
+    </div>
+</div>
+<script type="text/javascript" src="scripts/jquery.countdown.js"></script>
